@@ -1,0 +1,154 @@
+* {
+    font-family: 'Gill Sans MT' ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #DEAC80;
+    border-radius: 25px;
+    text-align: center;
+    margin: 13px;
+    padding: 13px;
+    line-height: 30px;
+}
+
+h3 {
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+body {
+    background-color: #F7DCB9;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#dashboard ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 13px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #deac80;
+}
+
+#dashboard li {
+    float: left;
+}
+
+#dashboard li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 15px;
+}
+
+#dashboard li a:hover {
+    padding: 14px 15px;
+    background-color: #914F1E;
+    color: #F7DCB9;
+}
+
+#dashboard .active {
+    background-color: #B5C18E;
+}
+
+#home {
+    margin: 10px;
+}
+
+#home h2 {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#home p {
+    font-size: 18px;
+    margin-left: 15px;
+    text-indent: 25px;
+}
+
+#home a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+#credits {
+    margin: 10px;
+    margin-top: 25px;
+}
+
+#credits h2 {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#credits ul {
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+#credits li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#credits li a:hover {
+    text-decoration: underline;
+}
+
+.stt {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #B5C18E url('../img/misc/uparrow.png')
+    center no-repeat;
+    background-size: 1.5rem 1.5rem;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    opacity: 0.6;
+}
+
+.stt:hover {
+    opacity: 0.8;
+}
+
+.stt:focus {
+    opacity: 0.9;
+}
+
+.stt:active {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+    background-color: #DEAC80;
+    padding: 7px 7px 13px 7px;
+    margin: 20px -10px -10px -10px;
+}
+
+footer h2 {
+    font-size: 1.25rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
